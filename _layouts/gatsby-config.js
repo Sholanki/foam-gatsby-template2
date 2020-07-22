@@ -14,6 +14,7 @@ module.exports = {
           "**/.git/**",
           "**/.github/**",
           "**/.vscode/**",
+           "**/netlify.toml/**",
         ],
       },
     },
