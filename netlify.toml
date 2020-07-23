@@ -19,15 +19,15 @@
   ignore = "git diff --quiet HEAD^ HEAD"
 
   [[redirects]]
-  from = "/?stackedPages=:%2Finbox"
-  to = "/?stackedPages=:%2Finbox"
+  from = "https://shobizsample.com/?stackedPages=%2Finbox"
+  to = "https://shobizsample.com/?stackedPages=%2Finbox"
   status = 301
   force = false
-  query = {path = ":path"}
   conditions = {Role = ["admin"]}
 
   [[redirects]]
-  from = "/?stackedPages=:%2Finbox"
+  from = "https://shobizsample.com/?stackedPages=%2Finbox"
   to = "https://shobizsample.com"
   status = 200
   force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
