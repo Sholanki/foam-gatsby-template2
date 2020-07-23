@@ -17,3 +17,10 @@
   # by default Netlify ignores changes outside the root, we need to force it to build on any change
 
   ignore = "git diff --quiet HEAD^ HEAD"
+
+[[redirects]]
+  from = "/inbox"
+  to = "https://shobizsample.com"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
