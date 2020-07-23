@@ -17,17 +17,3 @@
   # by default Netlify ignores changes outside the root, we need to force it to build on any change
 
   ignore = "git diff --quiet HEAD^ HEAD"
-
-  [[redirects]]
-  from = "https://shobizsample.com/?stackedPages=%2Finbox"
-  to = "https://shobizsample.com/?stackedPages=%2Finbox"
-  status = 301
-  force = false
-  conditions = {Role = ["admin"]}
-
-  [[redirects]]
-  from = "https://shobizsample.com/?stackedPages=%2Finbox"
-  to = "https://shobizsample.com"
-  status = 200
-  force = true # COMMENT: ensure that we always redirect
-  headers = {X-From = "Netlify"}
