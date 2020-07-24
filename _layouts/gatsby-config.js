@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: ``,
   siteMetadata: {
-    title: `Foam`,
+    title: `reddy2Go`,
   },
   plugins: [
     {
@@ -14,7 +14,7 @@ module.exports = {
           "**/.git/**",
           "**/.github/**",
           "**/.vscode/**",
-           "**/netlify.toml/**",
+          "**/netlify.toml/**"
         ],
       },
     },
