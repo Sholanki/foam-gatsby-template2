@@ -4,7 +4,7 @@ I'm a modern woman.
 
 ![alt](https://commons.wikimedia.org/wiki/Main_Page#/media/File:Apple_cake_with_vanilla_ice_cream_2.jpg)
 
-Thoughts here are not formatted for your reading pleasure. They are just here as a map. If you want to know more, [[start-here]] 
+My Curiosity Map [[start-here]] 
 
 ---
 
