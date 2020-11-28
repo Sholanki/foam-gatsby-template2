@@ -4,6 +4,7 @@ I'm a Renaissance man. I learn from adversity, mine or others. My goal is to sha
 ![alt](https://photos.collectednotes.com/photos/5688/6dfc12ea-9cf4-4fd0-ab4a-45e907e9071c)
 
 [[who-am-i]]
+
 [[who-is-this]]
 
 ## Why I write
