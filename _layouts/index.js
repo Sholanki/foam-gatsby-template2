@@ -3,7 +3,7 @@ function page(location) {
   let myLocation = location.pathname.split('/').join('');
 
   if (myLocation === '') {
-    myLocation = 'reddy2go';
+    myLocation = 'shobiz';
   } 
 
  return myLocation
